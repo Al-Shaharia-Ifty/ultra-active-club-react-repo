@@ -2,37 +2,37 @@
   {
     "id": "1",
     "name": "Walking",
-    "img": "../src/Assets/walking.jpg",
+    "img": "https://i.ibb.co/bmZdH3C/walking.jpg",
     "time": "10m"
   },
   {
     "id": "2",
     "name": "Cycling",
-    "img": "../src/Assets/cycling.jpg",
+    "img": "https://i.ibb.co/jr0Dqqd/cycling.webp",
     "time": "10m"
   },
   {
     "id": "3",
     "name": "Bench Press",
-    "img": "../src/Assets/Bench-press.jpg",
+    "img": "https://i.ibb.co/tpCzDbd/Bench-press.webp",
     "time": "10m"
   },
   {
     "id": "4",
     "name": "Dead Lifts",
-    "img": "../src/Assets/Dead-left.jpg",
+    "img": "https://i.ibb.co/MCjc1xz/Dead-left.png",
     "time": "10m"
   },
   {
     "id": "5",
     "name": "Exercise Bike",
-    "img": "../src/Assets/exercise-bike.jpg",
+    "img": "https://i.ibb.co/j4vztd2/exercise-bike.webp",
     "time": "10m"
   },
   {
     "id": "6",
     "name": "Swimming",
-    "img": "../src/Assets/swimming.jpg",
+    "img": "https://i.ibb.co/PjKq9bY/swimming.jpg",
     "time": "10m"
   }
 ]
