@@ -1,39 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import Break from "./Break";
+import Details from "./Details";
+import Profile from "./Profile";
 
-const Cart = () => {
+const Cart = ({ timer }) => {
+  const [brakeTime, setBreakTime] = useState(0);
+  console.log(brakeTime);
   return (
-    <div className="mx-5 mt-5">
-      <div className="flex ">
-        <img
-          src="https://i.ibb.co/1rc2WtF/photo.jpg"
-          alt="Shaharia's"
-          className="w-12 rounded-full"
-        />
-        <div className="ml-5">
-          <h2 className="text-2xl font-medium">Al Shaharia</h2>
-          <p>Mohammadpur, Dhaka</p>
-        </div>
-      </div>
-      <div className="grid grid-cols-3 gap-4 bg-gray-200 mt-10 p-5 rounded-lg">
-        <div className="text-center">
-          <h4 className="text-2xl font-bold">
-            58<small className="text-gray-400 text-sm">kg</small>
-          </h4>
-          <p>Weight</p>
-        </div>
-        <div className="text-center">
-          <h4 className="text-2xl font-bold">
-            6.7<small className="text-gray-400 text-sm">foot</small>
-          </h4>
-          <p>Height</p>
-        </div>
-        <div className="text-center">
-          <h4 className="text-2xl font-bold">
-            20<small className="text-gray-400 text-sm">yrs</small>
-          </h4>
-          <p>Age</p>
-        </div>
-      </div>
+    <div className="lg:mx-5 md:mx-5 mx-auto mt-10">
+      <Profile />
+      <Break brakeTime={brakeTime} setBreakTime={setBreakTime} />
+      <Details timer={timer} brakeTime={brakeTime} />
+      <button className="w-full py-2 bg-teal-600 rounded-lg mt-10 text-white font-medium">
+        Activity Completed
+      </button>
     </div>
   );
 };

@@ -11,7 +11,7 @@ function App() {
         <Home timer={timer} setTimer={setTimer} />
       </div>
       <div>
-        <Cart />
+        <Cart timer={timer} setTimer={setTimer} />
       </div>
     </div>
   );
