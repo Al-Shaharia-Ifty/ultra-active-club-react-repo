@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Walking",
+    "img": "../src/Assets/walking.jpg",
+    "time": "10m"
+  },
+  {
+    "id": "2",
+    "name": "Cycling",
+    "img": "../src/Assets/cycling.jpg",
+    "time": "10m"
+  },
+  {
+    "id": "3",
+    "name": "Bench Press",
+    "img": "../src/Assets/Bench-press.jpg",
+    "time": "10m"
+  },
+  {
+    "id": "4",
+    "name": "Dead Lifts",
+    "img": "../src/Assets/Dead-left.jpg",
+    "time": "10m"
+  },
+  {
+    "id": "5",
+    "name": "Exercise Bike",
+    "img": "../src/Assets/exercise-bike.jpg",
+    "time": "10m"
+  },
+  {
+    "id": "6",
+    "name": "Swimming",
+    "img": "../src/Assets/swimming.jpg",
+    "time": "10m"
+  }
+]
