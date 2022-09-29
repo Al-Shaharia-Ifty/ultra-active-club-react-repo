@@ -3,36 +3,36 @@
     "id": "1",
     "name": "Walking",
     "img": "https://i.ibb.co/bmZdH3C/walking.jpg",
-    "time": "10m"
+    "time": "10"
   },
   {
     "id": "2",
     "name": "Cycling",
     "img": "https://i.ibb.co/jr0Dqqd/cycling.webp",
-    "time": "10m"
+    "time": "10"
   },
   {
     "id": "3",
     "name": "Bench Press",
     "img": "https://i.ibb.co/tpCzDbd/Bench-press.webp",
-    "time": "10m"
+    "time": "10"
   },
   {
     "id": "4",
     "name": "Dead Lifts",
     "img": "https://i.ibb.co/MCjc1xz/Dead-left.png",
-    "time": "10m"
+    "time": "10"
   },
   {
     "id": "5",
     "name": "Exercise Bike",
     "img": "https://i.ibb.co/j4vztd2/exercise-bike.webp",
-    "time": "10m"
+    "time": "10"
   },
   {
     "id": "6",
     "name": "Swimming",
     "img": "https://i.ibb.co/PjKq9bY/swimming.jpg",
-    "time": "10m"
+    "time": "10"
   }
 ]
