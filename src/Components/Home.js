@@ -26,9 +26,14 @@ const Home = ({ timer, setTimer }) => {
       </div>
       <div className="pb-20 mx-10">
         <h1 className="text-4xl text-center">Q&A</h1>
-        <div className="mt-5">
+        <div
+          className="mt-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <h2 className="text-3xl mb-5">Who does React Work?</h2>
-          <p className="text-xl">
+          <p className="text-xl text-justify">
             ReactJS divides the UI into isolated reusable pieces of code known
             as components. React components work similarly to JavaScript
             functions as they accept arbitrary inputs called properties or
@@ -36,11 +41,16 @@ const Home = ({ timer, setTimer }) => {
             cluttering your code.
           </p>
         </div>
-        <div className="mt-5">
+        <div
+          className="mt-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <h2 className="text-3xl mb-5">
             What is difference between props and state?
           </h2>
-          <p className="text-xl">
+          <p className="text-xl text-justify">
             State is the local state of the component which cannot be accessed
             and modified outside of the component. It's equivalent to local
             variables in a function. Props, on the other hand, make components
@@ -48,11 +58,16 @@ const Home = ({ timer, setTimer }) => {
             parent component in the form of props.
           </p>
         </div>
-        <div className="mt-5">
+        <div
+          className="mt-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <h2 className="text-3xl mb-5">
             What does useEffect do without data loading?
           </h2>
-          <p className="text-xl">
+          <p className="text-xl text-justify">
             By using this Hook, you tell React that your component needs to do
             something after render. React will remember the function you passed
             we'll refer to it as our “effect”, and call it later after

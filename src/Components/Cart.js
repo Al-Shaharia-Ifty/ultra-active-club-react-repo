@@ -6,9 +6,8 @@ import { toast } from "react-toastify";
 
 const Cart = ({ timer }) => {
   const [brakeTime, setBreakTime] = useState(0);
-  console.log(brakeTime);
   return (
-    <div className="lg:mx-5 md:mx-5 mx-auto mt-10">
+    <div className="mt-10 lg:mx-5 md:mx-5 mx-10 ">
       <Profile />
       <Break brakeTime={brakeTime} setBreakTime={setBreakTime} />
       <Details timer={timer} brakeTime={brakeTime} />

@@ -6,7 +6,7 @@ const Break = ({ brakeTime, setBreakTime }) => {
     localStorage.setItem("brakeTime", t);
   };
   return (
-    <div className="bg-gray-200 mt-10 px-2 py-5 flex justify-center rounded-lg">
+    <div className="bg-gray-200 mt-5 px-2 py-5 flex justify-center rounded-lg">
       <button
         onClick={() => handleBrakeTime(1)}
         className="p-2 mx-1 bg-emerald-600 rounded-full text-white text-sm"

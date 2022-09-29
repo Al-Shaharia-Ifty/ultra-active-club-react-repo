@@ -34,6 +34,7 @@ const Profile = () => {
           <p>Age</p>
         </div>
       </div>
+      <h1 className="mt-10 text-xl font-medium">Add a Brake</h1>
     </div>
   );
 };
