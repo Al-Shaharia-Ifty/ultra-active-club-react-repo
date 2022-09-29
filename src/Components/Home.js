@@ -18,7 +18,7 @@ const Home = ({ timer, setTimer }) => {
       </header>
       <div className="mx-10 lg:mx-32 mt-10">
         <h4 className="text-xl font-medium">Select today's exercise</h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-10 lg:mx-0 md:mx-0 mt-10 pb-20">
           {exercises.map((e) => (
             <Exercise e={e} key={e.id} timer={timer} setTimer={setTimer} />
           ))}

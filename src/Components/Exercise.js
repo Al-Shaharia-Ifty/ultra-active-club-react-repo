@@ -1,10 +1,16 @@
 import React from "react";
 
-const Exercise = ({ e, setTimer }) => {
+const Exercise = ({ e, timer, setTimer }) => {
   const { img, name, time } = e;
 
   const handleTimer = () => {
-    setTimer(time);
+    if (timer === 0) {
+      setTimer(time);
+    } else {
+      const oldTime = parseInt(timer);
+      const newTime = parseInt(time);
+      setTimer(oldTime + newTime);
+    }
   };
   return (
     <div className="bg-white px-3 py-3 rounded-lg">
