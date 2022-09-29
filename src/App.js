@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Cart from "./Components/Cart";
 import Home from "./Components/Home";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [timer, setTimer] = useState(0);
@@ -13,6 +15,7 @@ function App() {
       <div>
         <Cart timer={timer} setTimer={setTimer} />
       </div>
+      <ToastContainer />
     </div>
   );
 }

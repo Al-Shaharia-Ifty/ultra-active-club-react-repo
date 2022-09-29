@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Break from "./Break";
 import Details from "./Details";
 import Profile from "./Profile";
+import { toast } from "react-toastify";
 
 const Cart = ({ timer }) => {
   const [brakeTime, setBreakTime] = useState(0);
@@ -11,7 +12,10 @@ const Cart = ({ timer }) => {
       <Profile />
       <Break brakeTime={brakeTime} setBreakTime={setBreakTime} />
       <Details timer={timer} brakeTime={brakeTime} />
-      <button className="w-full py-2 bg-teal-600 rounded-lg mt-10 text-white font-medium">
+      <button
+        onClick={() => toast.success("Activity Completed")}
+        className="w-full py-2 bg-teal-600 rounded-lg mt-10 text-white font-medium"
+      >
         Activity Completed
       </button>
     </div>

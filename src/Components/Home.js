@@ -24,6 +24,41 @@ const Home = ({ timer, setTimer }) => {
           ))}
         </div>
       </div>
+      <div className="pb-20 mx-10">
+        <h1 className="text-4xl text-center">Q&A</h1>
+        <div className="mt-5">
+          <h2 className="text-3xl mb-5">Who does React Work?</h2>
+          <p className="text-xl">
+            ReactJS divides the UI into isolated reusable pieces of code known
+            as components. React components work similarly to JavaScript
+            functions as they accept arbitrary inputs called properties or
+            props. It's possible to have as many components as necessary without
+            cluttering your code.
+          </p>
+        </div>
+        <div className="mt-5">
+          <h2 className="text-3xl mb-5">
+            What is difference between props and state?
+          </h2>
+          <p className="text-xl">
+            ReactJS divides the UI into isolated reusable pieces of code known
+            as components. React components work similarly to JavaScript
+            functions as they accept arbitrary inputs called properties or
+            props. It's possible to have as many components as necessary without
+            cluttering your code.
+          </p>
+        </div>
+        <div className="mt-5">
+          <h2 className="text-3xl mb-5">Who does React Work?</h2>
+          <p className="text-xl">
+            ReactJS divides the UI into isolated reusable pieces of code known
+            as components. React components work similarly to JavaScript
+            functions as they accept arbitrary inputs called properties or
+            props. It's possible to have as many components as necessary without
+            cluttering your code.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
